@@ -1,0 +1,25 @@
+package staticmthd;
+
+public class Sample4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(Counter.getInstance());
+	}
+
+}
+
+class Counter {
+	
+	static int count = 0;
+	
+	Counter() {
+		count++;
+		System.out.println(count);
+	}
+	
+	public static int getInstance() {
+		return count; 
+	}
+	
+}

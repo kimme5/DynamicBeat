@@ -1,0 +1,20 @@
+package staticex1;
+
+
+class Counter {
+	
+	int count = 0;
+	Counter() {
+		this.count++;
+		System.out.println(this.count);
+	}
+}
+
+public class Sample2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

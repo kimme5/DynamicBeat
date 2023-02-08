@@ -1,0 +1,17 @@
+package singleton;
+
+public class Sample6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Sigleton1 st1 = new Singleton1();
+	}
+
+}
+
+class Singleton1 {
+
+	private Singleton1() {
+	}
+
+}

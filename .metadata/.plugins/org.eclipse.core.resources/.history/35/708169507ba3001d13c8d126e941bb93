@@ -1,0 +1,21 @@
+package singleton;
+
+public class Sample7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Singleton st = Singleton.getInstance();
+	}
+
+}
+
+class Singleton {
+
+	private Singleton() {
+	}
+	
+	// getInstance를 호출할때마다 새로운 객체를 생성하므로, Singleton이 아님	
+	public static Singleton getInstance() {
+		return new Singleton();
+	}
+}

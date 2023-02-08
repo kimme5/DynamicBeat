@@ -1,0 +1,28 @@
+package staticex1;
+
+class HouseLee {
+	
+	String lastname = "이";
+	// HouseLee 클래스의 lastname은 어떤 객체이던지 동일간 값 "이" 
+	// 이렇게 항상 값이 변하지 않는 경우라면 static으로 선언하여 메모리의 이점을 얻을 수 있음
+	static String lastname2 = "이";
+}
+
+public class Sample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		HouseLee lee1 = new HouseLee();
+		HouseLee lee2 = new HouseLee();
+		
+		System.out.println(lee1.lastname);
+		System.out.println(lee2.lastname);
+		
+		System.out.println(lee1.lastname == lee2.lastname);
+		
+		// static 변수이므로, 객체를 통해 호출하지 않고 바로 사용 가능함
+		System.out.println(HouseLee.lastname2);
+		
+	}
+
+}

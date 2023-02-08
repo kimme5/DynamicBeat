@@ -1,0 +1,22 @@
+package singleton;
+
+public class Sample8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Singleton3 {
+	
+	private Singleton3 one;
+	
+	private Singleton3() {
+	}
+	
+	static Singleton3 getInstance() {
+		
+	}
+}
