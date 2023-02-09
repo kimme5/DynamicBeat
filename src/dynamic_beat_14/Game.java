@@ -160,7 +160,7 @@ public class Game extends Thread {
 		Beat[] beats = null;
 		
 		if(titleName.equals("JoaKim Karud - Mighty Love")) {
-			int startTime = 1000 - Main.REACH_TIME * 1000;
+			int startTime = 4460 - Main.REACH_TIME * 1000;
 			int gap = 125;
 			beats = new Beat[] {
 				new Beat(startTime, "S"),
